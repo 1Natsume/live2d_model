@@ -2,7 +2,7 @@
   "Version": 3,
   "FileReferences": {
     "Moc": "FileReferences_Moc_0.moc3",
-    "Textures": ["ChenHai.2048/FileReferences_Textures_0_0.png"],
+    "Textures": ["./ChenHai.2048/FileReferences_Textures_0_0.png"],
     "Physics": "FileReferences_Physics_0.json",
     "PhysicsV2": { "File": "FileReferences_Physics_0.json" },
     "Motions": {

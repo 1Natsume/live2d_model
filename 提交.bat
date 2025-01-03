@@ -1,29 +1,20 @@
-@echo off
-chcp 65001
-setlocal enabledelayedexpansion
+# 初始化: 创建一个 git 仓库，会在该目录中生成一个 .git 文件
+git init
 
-:: git 提交说明，由用户输入获取
-set /p DESCRIPTION="请输入提交说明: "
-:: 如果用户直接回车，则使用默认的提交说明
-if not defined DESCRIPTION (
-	DESCRIPTION="默认提交说明"
-)
-:: 当前是在git管理目录的上一级，需要进到git管理的目录下使用git命令
-cd /d "live2d_model"
-:: 将所有文件加入到缓冲区
+# 添加所有文件到缓冲区
 git add .
-:: 提交
-git commit -m "!DESCRIPTION!"
-:: 拉取最新代码
-git pull
-if %ERRORLEVEL% NEQ 0 (
-    echo An error occurred during git pull.
-    exit /b %ERRORLEVEL%
-)
-:: 推送到远程仓库
+
+# 提交缓冲区的所有修改到仓库
+git commit -m "提交说明"
+
+# 添加远程仓库
+git remote add origin https://cdn.jsdelivr.net/gh/1Natsume/live2d_model.git
+
+# 初始化推送
+git push -u origin master
+
+# 提交主分支
 git push origin master
 
-echo Commit successful.
-endlocal
-:: 暂停窗口，调试可用，正式使用可以注释掉下面代码，就会自动关闭窗口
-pause
+# 拉取远程仓库代码
+git pull
