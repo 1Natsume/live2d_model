@@ -874,3 +874,17 @@
           "File": "motions/home.motion3.json"
         }
       ],
+      "TapBody": [
+        {
+          "File": "motions/touch_body.motion3.json",
+          "FadeInTime": 0.5,
+          "FadeOutTime": 0.5
+        }
+      ],
+      "TapHead": [
+        {
+          "File": "motions/touch_head.motion3.json",
+          "FadeInTime": 0.5,
+          "FadeOutTime": 0.5
+        }
+      ]

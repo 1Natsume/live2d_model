@@ -15,21 +15,8 @@
           "FadeInTime": 0.5,
           "FadeOutTime": 0.5
         }
-      ],
-      "TapBody": [
-        {
-          "File": "motions/touch_body.motion3.json",
-          "FadeInTime": 0.5,
-          "FadeOutTime": 0.5
-        }
-      ],
-      "TapHead": [
-        {
-          "File": "motions/touch_head.motion3.json",
-          "FadeInTime": 0.5,
-          "FadeOutTime": 0.5
-        }
       ]
+      
       
     }
   },
