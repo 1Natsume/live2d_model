@@ -26,6 +26,88 @@
           "FadeInTime": 0.5,
           "FadeOutTime": 0.5
         }
+      ],
+      "TapBody": [
+        {
+          "Name": "主界面main_1",
+          "Sound": "/sounds/FileReferences_Motions_TapTouchBody_0_Sound_0.mp3",
+          "Text": "你是在思考吗？还是说，只是单纯的在发呆？……表情倒是挺可爱的呢，呵呵~",
+          "FadeInTime": 0.5,
+          "FadeOutTime": 0.5
+        },
+        {
+          "Name": "主界面main_2",
+          "Sound": "/sounds/FileReferences_Motions_TapTouchBody_1_Sound_0.mp3",
+          "Text": "我思考时的表情有些阴沉？你怎么能肯定，那不是我的“伪装”之一呢？",
+          "FadeInTime": 0.5,
+          "FadeOutTime": 0.5
+        },
+        {
+          "Name": "主界面main_3",
+          "Sound": "/sounds/FileReferences_Motions_TapTouchBody_2_Sound_0.mp3",
+          "Text": "勉强也好，虚张声势也好，不到万不得已时，不要让别人看穿了你的底牌。",
+          "FadeInTime": 0.5,
+          "FadeOutTime": 0.5
+        },
+        {
+          "Name": "主界面main_4_ex1100",
+          "Sound": "/sounds/FileReferences_Motions_TapTouchBody_3_Sound_0.mp3",
+          "Text": "东煌以外亦有不少下棋的能手。只可惜不同棋规则大相径庭，无法酣畅淋漓地对弈呢。",
+          "FadeInTime": 0.5,
+          "FadeOutTime": 0.5
+        },
+        {
+          "Name": "主界面main_5_ex1100",
+          "Sound": "/sounds/FileReferences_Motions_TapTouchBody_4_Sound_0.mp3",
+          "Text": "所谓奇袭，并非一定是从背后偷袭，比如说，像这样突然靠近你的脸——是不是被吓了一跳？呵呵~",
+          "FadeInTime": 0.5,
+          "FadeOutTime": 0.5
+        },
+        {
+          "Name": "主界面main_1_1",
+          "Sound": "/sounds/FileReferences_Motions_TapTouchBody_5_Sound_0.mp3",
+          "Text": "能与我对弈的对手已经有了，要是再有棋盘与棋子就再好不过了…啊，不着急，一会我再去取。",
+          "FadeInTime": 0.5,
+          "FadeOutTime": 0.5
+        },
+        {
+          "Name": "主界面main_2_1",
+          "Sound": "/sounds/FileReferences_Motions_TapTouchBody_6_Sound_0.mp3",
+          "Text": "指挥官，你喜欢哪些藏品？瓷器、玉器？还是字画？亦或是……整个屋子本身？呵呵~",
+          "FadeInTime": 0.5,
+          "FadeOutTime": 0.5
+        },
+        {
+          "Name": "主界面main_3_1",
+          "Sound": "/sounds/FileReferences_Motions_TapTouchBody_7_Sound_0.mp3",
+          "Text": "海圻的花舱，肇和的独舞……今晚的节目甚是丰盛。如果能有人陪我一同欣赏，那自然再好不过——你明白我的意思吧？",
+          "FadeInTime": 0.5,
+          "FadeOutTime": 0.5
+        },
+        {
+          "Name": "主界面main_1_2",
+          "Sound": "/sounds/FileReferences_Motions_TapTouchBody_8_Sound_0.mp3",
+          "Text": "乘兴而来，兴尽而归。平时里繁杂的事务考虑多了，这种时候就该放空思绪单纯享受~",
+          "Intimacy": { "Bonus": 1 },
+          "FadeInTime": 0.5,
+          "FadeOutTime": 0.5
+        },
+        {
+          "Name": "主界面main_2_2",
+          "Sound": "/sounds/FileReferences_Motions_TapTouchBody_9_Sound_0.mp3",
+          "Text": "海圻？兴许她此时正在某个地方和刚结识的小伙伴打水仗吧。你要去找她们么？",
+          "Intimacy": { "Bonus": 1 },
+          "FadeInTime": 0.5,
+          "FadeOutTime": 0.5
+        },
+        {
+          "Name": "主界面main_3_2",
+          "Sound": "/sounds/FileReferences_Motions_TapTouchBody_10_Sound_0.mp3",
+          "Text": "水波、艳阳、还有若隐若现的彩虹……如果海天在这里的话，大概又能听她吟诗一首了。",
+          "Intimacy": { "Bonus": 1 },
+          "FadeInTime": 0.5,
+          "FadeOutTime": 0.5
+        }
       ]
     }
   },

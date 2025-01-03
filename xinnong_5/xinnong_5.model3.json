@@ -26,7 +26,9 @@
       ],
       "idle": [
         {
-          "File": "motions/idle.motion3.json"
+          "File": "motions/idle.motion3.json",
+          "FadeInTime": 0.5,
+          "FadeOutTime": 0.5
         }
       ],
       "idle1": [
@@ -194,9 +196,11 @@
           "File": "motions/mission_complete.motion3.json"
         }
       ],
-      "touch_body": [
+      "TapBody": [
         {
-          "File": "motions/touch_body.motion3.json"
+          "File": "motions/touch_body.motion3.json",
+          "FadeInTime": 0.5,
+          "FadeOutTime": 0.5
         }
       ],
       "touch_drag1": [
@@ -304,9 +308,11 @@
           "File": "motions/touch_drag9.motion3.json"
         }
       ],
-      "touch_head": [
+      "TapHead": [
         {
-          "File": "motions/touch_head.motion3.json"
+          "File": "motions/touch_head.motion3.json",
+          "FadeInTime": 0.5,
+          "FadeOutTime": 0.5
         }
       ],
       "touch_idle1": [
