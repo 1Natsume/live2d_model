@@ -6,7 +6,7 @@ git add .
 
 git commit -m "提交说明"
 
-git remote add origin https://cdn.jsdelivr.net/gh/1Natsume/live2d_model.git
+git remote add origin https://github.com/1Natsume/live2d_model.git
 
 git push -u origin master
 
